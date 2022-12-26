@@ -1,0 +1,42 @@
+.job_desc {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    margin-top: 8rem;
+    justify-content: center;
+}
+
+.job-title-heading {
+    font-size: 1.1rem;
+    color: gray;
+}
+
+.job-title {
+    margin : 5px 0;
+    margin-left: 10px;
+}
+
+.company-name-heading {
+    font-size: 1.1rem;
+        color: gray;
+}
+
+.company-title {
+    margin: 5px 0;
+        margin-left: 10px;
+}
+
+.desc-heading {
+    font-size: 1.1rem;
+        color: gray;
+}
+
+.desc-title {
+    margin: 5px 0;
+        margin-left: 10px;
+}
+
+.job-data {
+    margin-top: 20px;
+}

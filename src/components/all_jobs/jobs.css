@@ -1,0 +1,27 @@
+.jobs-top {
+    width: 100vw;
+    padding: 1rem ;
+    box-shadow: 0 2px 10px 2px  rgba(196, 196, 196, 0.842);
+}
+
+.jobs-btn {
+    float: right;
+    margin-right: 18%;
+    padding: 6px 20px;
+    background-color: rgb(11, 89, 255);
+    color: white;
+    box-shadow: 0 2px 10px 2px rgba(196, 196, 196, 0.842);
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.job-container {
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 60px;
+    width: 66%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}

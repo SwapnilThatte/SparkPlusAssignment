@@ -1,0 +1,101 @@
+.back {
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+    width: 100vw;
+    text-decoration: none;
+    height: 4rem;
+    box-shadow: 0 2px 6px 0 rgb(182, 182, 182);
+}
+
+.new-note {
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.new-note-card {
+    border: 1px solid whitesmoke;
+    box-shadow: 0 0 6px 6px whitesmoke;
+    padding: 1.4em 3.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: fit-content;
+    margin-top: 1.4rem;
+    gap: 30px;
+}
+
+.new-note-title {
+    font-size: 1.01rem;
+    font-weight: bold;
+}
+
+.new-note-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group>label {
+    font-size: 0.8rem;
+    color: rgb(143, 143, 143);
+    margin-bottom: 4px;
+}
+
+.form-group>input,
+.form-group>textarea {
+    resize: none;
+    padding: 6px 8px;
+    font-size: 1.01rem;
+    border: none;
+    outline: none;
+    border: 1px solid darkgray;
+    background-color: whitesmoke;
+}
+
+.form-grp-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.form-grp-flex>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-grp-flex>div>label {
+    font-size: 0.8rem;
+    margin-bottom: 4px;
+    color: rgb(143, 143, 143);
+}
+
+.form-grp-flex>div>input {
+    padding: 6px 8px;
+    font-size: 1.01rem;
+    background-color: whitesmoke;
+    border: none;
+    outline: none;
+    border: 1px solid darkgray;
+}
+
+.btn {
+    width: 30%;
+    cursor: pointer;
+    margin: auto;
+    padding: 6px;
+    border: none;
+    outline: none;
+    background-color: rgb(46, 46, 255);
+    font-size: 1.01rem;
+    color: white;
+    box-shadow: 0 2px 6px 0px rgb(168, 168, 168);
+}
