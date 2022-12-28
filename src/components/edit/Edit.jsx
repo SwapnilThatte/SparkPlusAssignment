@@ -21,19 +21,19 @@ export const Edit = () => {
         e.preventDefault();
 
         if (company === "") {
-    company = original.company;
+    setCompany(original.company);
 }
 if (job === "") {
-    company = original.job;
+    setJob(original.job);
 }
 if (salary === "") {
-    company = original.salary;
+    setSalary(original.salary);
 }
 if (datetime === "") {
-    company = original.datetime;
+    setDateTime(original.datetime);
 }
 if (desc === "") {
-    company = original.desc;
+    setDesc(original.desc);
 }
 
 localStorage.removeItem(id)

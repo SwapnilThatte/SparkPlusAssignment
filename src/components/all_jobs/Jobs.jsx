@@ -7,15 +7,22 @@ export const Jobs = () => {
 
 
   const getJOBS = () => {
-    const jobs_arr = Object.keys(localStorage)
-    console.log(jobs_arr);
     let arr = []
-    for(let obj of jobs_arr) {
-      console.log("OBJECT => ", obj);
-      arr.push(JSON.parse(localStorage.getItem(obj)))
-    } 
-    console.log(arr);
-    return arr
+    
+    if (localStorage.length === 0) {
+      return arr
+    }
+    else {
+      const jobs = Object.keys(localStorage)
+     
+      for(let key of jobs) {
+        
+        let job = localStorage.getItem(key)
+        const jsonJob = JSON.parse(job)
+        arr.push(jsonJob)
+      }
+    }
+    return arr 
   }
 
   let all_jobs = getJOBS()

@@ -10,9 +10,9 @@ function App() {
   const [jobs, setJobs] = useState([])
   const addVaccency = (vaccency) => {
     localStorage.setItem(vaccency.id.toString(), JSON.stringify(vaccency))
-    console.log(localStorage);
-    setJobs(prevState => [...prevState, vaccency])
-    console.log(jobs)
+    let prevJobs = jobs
+    prevJobs.push(vaccency)
+    setJobs(prevJobs)
     location.replace('/')
   }
 

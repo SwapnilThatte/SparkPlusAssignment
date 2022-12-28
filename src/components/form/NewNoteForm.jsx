@@ -10,7 +10,7 @@ export const NewNoteForm = ({ addVaccency }) => {
     const [datetime, setDateTime] = useState("")
     const [desc, setDesc] = useState("")
 
-    const location = useLocation()
+    
     const handleSubmit = (e) => {
         e.preventDefault()
         addVaccency({
@@ -21,8 +21,8 @@ export const NewNoteForm = ({ addVaccency }) => {
             desc : desc,
             id : Date.now()
         })
-        location.redirect("/");
-        console.log(e);
+        
+        
     } 
 
   return (
